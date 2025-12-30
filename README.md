@@ -56,5 +56,5 @@ başarıyla ölçülmüştür. Görüntü işleme teknikleri sayesinde hızlı, 
 ve tekrarlanabilir ölçüm yapılabileceği gösterilmiştir.
 
 ## Hazırlayan
-Aumen Aumen  
+Emirhan Aybey 
 Elektrik-Elektronik Mühendisliği
