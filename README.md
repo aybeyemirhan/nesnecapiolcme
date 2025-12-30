@@ -21,3 +21,40 @@ uygulamalarına giriş niteliğindedir.
 - Piksel → milimetre dönüşümü
 
 ## Klasör Yapısı
+nesnecapiolcme/
+├── src/ % MATLAB kodları
+├── data/ % Giriş görüntüleri
+├── figures/ % Çıktı görselleri
+├── docs/ % Rapor ve açıklamalar
+├── README.md
+└── LICENSE
+
+
+## Kullanım
+1. `data` klasörüne ölçülmek istenen görüntüyü ekleyin.
+2. MATLAB Online veya MATLAB Desktop üzerinden `src/main.m` dosyasını açın.
+3. Kodu çalıştırın.
+4. Nesnenin çapı Command Window üzerinden milimetre cinsinden görüntülenir.
+
+## Kullanılan MATLAB Fonksiyonları
+- `imread`
+- `rgb2gray`
+- `imgaussfilt`
+- `imbinarize`
+- `imfill`
+- `regionprops`
+
+## Uygulama Alanları
+- Endüstriyel ölçüm sistemleri
+- Görüntü tabanlı kalite kontrol
+- Medikal görüntü işleme
+- Makine görüşü uygulamaları
+
+## Sonuç
+Bu projede MATLAB kullanılarak bir görüntü içerisindeki nesnenin çapı
+başarıyla ölçülmüştür. Görüntü işleme teknikleri sayesinde hızlı, temassız
+ve tekrarlanabilir ölçüm yapılabileceği gösterilmiştir.
+
+## Hazırlayan
+Aumen Aumen  
+Elektrik-Elektronik Mühendisliği
